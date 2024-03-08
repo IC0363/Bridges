@@ -39,15 +39,47 @@ public class EmojiBuilder extends NonBlockingGame {
         // YOUR CODE HERE:
         for(int i = 0; i <getBoardHeight();i++){
             for(int j = 0; j < getBoardWidth(); j++){
-                setBGColor(i,j,NamedColor.white);
+                setBGColor(i,j,NamedColor.blueviolet);
             }
         }
 
         // use setBGColor calls for your emoji
         // for example:
-        setBGColor(2,3, NamedColor.darkmagenta);
-        setBGColor(2,5, NamedColor.darkmagenta);
+        setBGColor(3,3, NamedColor.green);
+        setBGColor(3,5, NamedColor.green);
+        
+
+
         //YOUR CODE HERE:
+        setBGColor(7,5, NamedColor.black);
+        setBGColor(7,4, NamedColor.black);
+        setBGColor(7,3, NamedColor.black);
+        setBGColor(6,2, NamedColor.red);
+        setBGColor(6,6, NamedColor.blue);
+
+        setBGColor(1,5, NamedColor.black);
+        setBGColor(1,4, NamedColor.black);
+        setBGColor(1,3, NamedColor.black);
+        setBGColor(1,2, NamedColor.black);
+        setBGColor(1,1, NamedColor.black);
+        setBGColor(1,6, NamedColor.black);
+        setBGColor(1,7, NamedColor.black);
+        setBGColor(1,8, NamedColor.black);
+        setBGColor(1,9, NamedColor.black);
+        setBGColor(1,0, NamedColor.black);
+        setBGColor(0,5, NamedColor.black);
+        setBGColor(0,4, NamedColor.black);
+        setBGColor(0,3, NamedColor.black);
+        setBGColor(0,2, NamedColor.black);
+        setBGColor(0,1, NamedColor.black);
+        setBGColor(0,6, NamedColor.black);
+        setBGColor(0,7, NamedColor.black);
+        setBGColor(0,8, NamedColor.black);
+        setBGColor(0,9, NamedColor.black);
+        setBGColor(0,0, NamedColor.black);
+
+        
+        
     }
 
     // gameloop
